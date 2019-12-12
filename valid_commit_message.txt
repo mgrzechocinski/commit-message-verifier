@@ -1,0 +1,29 @@
+[MEA-123] This is a subject of the commit message
+
+This is a body, followed by an empty line. Commit message body can be
+even a whole multi-line paragraph which contains detailed description
+of the change.
+
+Commit message can contain another paragraph, but always separated by
+exactly one empty line.
+
+Enumeration can be included with optional header, followed by collon:
+- any item must be prefixed with the dash character
+- any item must start with small letter
+- items which don't fit in 72 chars length, must be wrapped with the
+  leading whitespaces to that next line starts in exactly the same
+  column where the previous line has started.
+
+The might be more paragraphs, even after enumeration block.
+Every line can contain "quote" or 'quote' as well.
+
+- enumeration item can start without header
+- any item must be prefixed with the dash character
+- any item must start with small letter
+- items which don't fit in 72 chars length, must be wrapped with the
+  leading whitespaces to that next line starts in exactly the same
+  column where the previous line has started.
+
+There might be additional piece of information like See
+
+See: http://example.org?query=foo#header
